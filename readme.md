@@ -1,11 +1,11 @@
 <div align="center">
   <h1>SpaceApi-Wrapper</h1>
   <p>
-    <a href="https://www.npmjs.com/package/popcat-wrapper"><img src="https://img.shields.io/npm/v/popcat-wrapper?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/popcat-wrapper"><img src="https://img.shields.io/npm/dt/popcat-wrapper?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/space-api-wrapper"><img src="https://img.shields.io/npm/v/popcat-wrapper?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/space-api-wrapper"><img src="https://img.shields.io/npm/dt/popcat-wrapper?maxAge=3600" alt="NPM downloads" /></a>
   </p>
   <p>
-    <a href="https://www.npmjs.com/package/popcat-wrapper"><img src="https://nodei.co/npm/popcat-wrapper.png?downloads=true&stars=true" alt="NPM Banner"></a>
+    <a href="https://www.npmjs.com/package/space-api-wrapper"><img src="https://nodei.co/npm/space-api-wrapper.png?downloads=true&stars=true" alt="NPM Banner"></a>
   </p>
 </div>
 
