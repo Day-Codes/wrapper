@@ -34,6 +34,15 @@ if (message.content.toLowerCase() === ">job") {
 client.login("bot token")
 ```
 
+## Endpoints
+You can get a full list of the possible API endpoints [Here](https://api.popca.xyz)
+But here is the list:
+ - `job()`
+- `covid()`
+- `npm()`
+- `meme()`
+- `screenshot()`
+- `sadcat()`
 ## Credits
 Made with ❤ by Zero Two#9999
 Modified with 💖 by Udayana#5236
