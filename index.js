@@ -20,7 +20,7 @@ module.exports.job = async function() {
   return json.job;
 }
 module.exports.screenshot = async function(url) {
-	if(!url) throw new Error("[Popcat Wrapper] screenshot(url) ==> 'url' parameter is missing.")
+	if(!url) throw new Error("[SpaceAPI Wrapper] screenshot(url) ==> 'url' parameter is missing.")
 	const {isurl} = await fetch(`https://api.popcat.xyz/isurl?url=${encodeURIComponent(url)}`).then(r => r.json())
 	if(isurl === false) throw new Error("[SpaceAPI Wrapper] screenshot(url) ==> 'url' is not valid!")
 	const img = `https://api.spacedc.tk/screenshot?url=${url}`
