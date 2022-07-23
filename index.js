@@ -20,7 +20,7 @@ module.exports.job = async function() {
   return json.job;
 }
 module.exports.screenshot = async function(url) {
-	if(!url) throw new Error("[SpaceAPI Wrapper] screenshot(url) ==> 'url' parameter is missing.")
+	if(!url) throw new Error("[Popcat Wrapper] screenshot(url) ==> 'url' parameter is missing.")
 	const {isurl} = await fetch(`https://api.popcat.xyz/isurl?url=${encodeURIComponent(url)}`).then(r => r.json())
 	if(isurl === false) throw new Error("[SpaceAPI Wrapper] screenshot(url) ==> 'url' is not valid!")
 	const img = `https://api.spacedc.tk/screenshot?url=${url}`
@@ -41,4 +41,10 @@ module.exports.sadcat = async function(text) {
 	if(!text) throw new Error("[SpaceAPI Wrapper] The field 'text' was left empty in the SAD CAT function. Need help? https://popcat.xyz/server")
 	const url = `${baseurl}sadcat?text=${encodeURIComponent(text)}`
 	return url;
+}
+module.exports.quote = async function() {
+	const res = await fetch("https://api.spacedc.tk/quote")
+	const text = await res.text()
+	const json = JSON.parse(text)
+	return json;
 }
